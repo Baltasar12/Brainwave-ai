@@ -1,5 +1,6 @@
 import ButtonGradient from './assets/svg/ButtonGradient';
 import Benefits from './components/Benefits';
+import Collaborations from './components/Collaborations';
 import Header from './components/Header';
 import Hero from './components/Hero';
 
@@ -12,6 +13,7 @@ const App = ()=> {
         <Header/>
         <Hero/>
         <Benefits/>
+        <Collaborations/>
       </div>
       <ButtonGradient/>
     </>
