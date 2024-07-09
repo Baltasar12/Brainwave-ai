@@ -1,9 +1,9 @@
 import Button from "./Button";
 import Heading from "./Heading";
 import Section from "./Section";
-import Tagline from "./TagLine";
+import Tagline from "./Tagline";
 import { roadmap } from "../constants";
-import { check2, grid, loading1 } from "../../public/assets";
+import { check2, grid, loading1 } from "../assets";
 import { Gradient } from "./design/Roadmap";
 
 const Roadmap = () => (
@@ -32,6 +32,7 @@ const Roadmap = () => (
                     alt="Grid"
                   />
                 </div>
+                
                 <div className="relative z-1">
                   <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
                     <Tagline>{item.date}</Tagline>
